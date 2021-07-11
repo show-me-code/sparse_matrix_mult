@@ -5,8 +5,10 @@ sys.path.append(ROOTDIR)
 
 import tensorflow as tf
 import numpy as np
-from dnnspmv.model.dataset import DataSet
-from dnnspmv.model.lib.sample_wrapper import DlSample as Sampler
+#from dnnspmv.model.dataset import DataSet
+from dataset import DataSet
+#from dnnspmv.model.lib.sample_wrapper import DlSample as Sampler
+from lib.sample_wrapper import DlSample as Sampler
 #用TF1.0做的，我们需要使用torch对其进行重构
 #首先对其进行解离
 
